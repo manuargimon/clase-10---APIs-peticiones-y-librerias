@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mi Simulador - Tienda</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <h1>Mi Simulador de Tienda</h1>
+
+  <div id="promoBanner" class="promo oculto"></div>
+
+  <div class="formulario">
+    <input type="text" id="inputNombre" placeholder="Nombre del producto" />
+    <input type="number" id="inputPrecio" placeholder="Precio" />
+    <button id="btnAgregar">+ Agregar</button>
+  </div>
+
+  <div class="acciones">
+    <input type="text" id="inputBuscar" placeholder="Buscar producto..." />
+    <button id="btnVaciar">Vaciar todo</button>
+  </div>
+
+  <div id="contenedorItems"></div>
+
+</body>
+</html>

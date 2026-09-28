@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nombre": "Teclado mecanico", "precio": 45000 },
+  { "id": 2, "nombre": "Mouse inalambrico", "precio": 22000 },
+  { "id": 3, "nombre": "Monitor 24''", "precio": 180000 },
+  { "id": 4, "nombre": "Auriculares gamer", "precio": 38000 },
+  { "id": 5, "nombre": "Webcam Full HD", "precio": 27000 },
+  { "id": 6, "nombre": "Silla ergonomica", "precio": 120000 }
+]
